@@ -1,0 +1,82 @@
+.card {
+    border: 3px solid #57c1ff;
+    border-radius: 20px;
+    padding: 10px;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lebanonMap {
+    display: grid;
+    margin: 5%;
+    grid-template-columns: 2fr 1fr;
+
+}
+.paragraphe-1 {
+    margin: 5% 0;
+}
+
+.ads{
+    display: flex;
+    width: 80%;
+    margin: 5% 0;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 2%;
+    gap: 15px;
+    align-items: center;
+
+}
+.number {
+    font-size: 70px;
+}
+
+
+
+
+@media (max-width:975px) {
+    .lebanonMap{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 1fr;
+    }
+    .grid-1{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 35px;
+    }
+    .number {
+        font-size: 50px;
+    }
+    .sign-up{
+        display: flex;
+        align-items: center;
+    }
+    .ads{
+        width: 95%;
+    }
+}
+
+@media (max-width:600px) {
+    .lebanonMap{
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+    .grid-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .number {
+        font-size: 50px;
+    }
+    .sign-up{
+        display: flex;
+        align-items: center;
+    }
+    .ads{
+        width: 95%;
+    }
+}

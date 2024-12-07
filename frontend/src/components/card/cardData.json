@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "image": "../../images/card1.jpg",
+    "title": "Card 1 Title",
+    "location": "Location 1",
+    "price": "$100",
+    "description": "Description 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "phoneNumber": "123-456-7890"
+  },
+  {
+    "id": 2,
+    "image": "../../images/card2.jpg",
+    "title": "Card 2 Title",
+    "location": "Location 2",
+    "price": "$150",
+    "description": "Description 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "phoneNumber": "987-654-3210"
+  },
+  {
+    "id": 3,
+    "image": "../../images/card3.jpg",
+    "title": "Card 3 Title",
+    "location": "Location 3",
+    "price": "$120",
+    "description": "Description 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "bob.johnson@example.com",
+    "phoneNumber": "456-789-0123"
+  },{
+    "id": 4,
+    "image": "../../images/card1.jpg",
+    "title": "Card 4 Title",
+    "location": "Location 1",
+    "price": "$100",
+    "description": "Description 1",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "phoneNumber": "123-456-7890"
+  },
+  {
+    "id": 5,
+    "image": "../../images/card2.jpg",
+    "title": "Card 5 Title",
+    "location": "Location 2",
+    "price": "$150",
+    "description": "Description 2",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "phoneNumber": "987-654-3210"
+  },
+  {
+    "id": 6,
+    "image": "../../images/card3.jpg",
+    "title": "Card 6 Title",
+    "location": "Location 3",
+    "price": "$120",
+    "description": "Description 3",
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "bob.johnson@example.com",
+    "phoneNumber": "456-789-0123"
+  },{
+    "id": 7,
+    "image": "../../images/card1.jpg",
+    "title": "Card 7 Title",
+    "location": "Location 1",
+    "price": "$100",
+    "description": "Description 1",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "phoneNumber": "123-456-7890"
+  },
+  {
+    "id": 8,
+    "image": "../../images/card2.jpg",
+    "title": "Card 8 Title",
+    "location": "Location 2",
+    "price": "$150",
+    "description": "Description 2",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "phoneNumber": "987-654-3210"
+  },
+  {
+    "id": 9,
+    "image": "../../images/card3.jpg",
+    "title": "Card 9 Title",
+    "location": "Location 3",
+    "price": "$120",
+    "description": "Description 3",
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "bob.johnson@example.com",
+    "phoneNumber": "456-789-0123"
+  }
+]

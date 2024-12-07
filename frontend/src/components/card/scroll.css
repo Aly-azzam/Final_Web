@@ -1,0 +1,27 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  .list-container {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+    scroll-snap-type: x mandatory;
+  }
+  
+  .list-container::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
+  .list-item {
+    min-width: 300px;
+    margin-right: 10px; /* Adjust as needed */
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+  

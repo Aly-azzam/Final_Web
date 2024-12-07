@@ -1,0 +1,9 @@
+.grid-container {
+    display: flex;
+  }
+  
+.grid-item {
+  flex: 1;
+  padding: 16px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,33 @@
+/* ImageWithText.css */
+
+.AboutUs {
+display: grid;
+  grid-template-columns: 1fr 2fr; 
+  column-gap: 5%; 
+  margin: 5%;
+}
+
+.image-container {
+    grid-column: 1/2;
+}
+
+.image {
+    width: 90%; 
+    border-radius: 8px; 
+}
+
+.text-container {
+    grid-column: 2/3;
+}
+
+.paragraphe-1{
+    text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+  .AboutUs {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+}

@@ -1,0 +1,271 @@
+:root {
+  font-family: Montserrat;
+  line-height: 1.5;
+  font-weight: 400;
+  color: white;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body {
+  background: 
+    radial-gradient(circle at 20% 20%, #39FF14 0%, transparent 20%),
+    radial-gradient(circle at 80% 80%, #39FF14 0%, transparent 20%),
+    linear-gradient(45deg, transparent 48%, #39FF14 48%, #39FF14 52%, transparent 52%),
+    linear-gradient(135deg, transparent 48%, #39FF14 48%, #39FF14 52%, transparent 52%),
+    #000000;
+  background-size: 200% 200%;
+  animation: gradientAnimation 15s ease infinite;
+  background-attachment: fixed;
+  position: relative;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+/* Set white text color for all elements except testimonials */
+*:not(.myCarousel *) {
+  color: white !important;
+}
+
+/* Add subtle glow effect to specific elements */
+h1, h2, h3, button {
+  text-shadow: 0 0 5px rgba(57, 255, 20, 0.3);
+}
+
+button {
+  box-shadow: 0 0 10px rgba(57, 255, 20, 0.2);
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 4em;
+  line-height: 1.1;
+}
+h3 {
+  font-size: 3em;
+  line-height: 1.4;
+}
+p {
+  font-size: 1.1em;
+}
+
+/*!============================================*/
+/*!============================================*/
+@media (max-width:1200px){
+  h1 {
+    font-size: 4.6em;
+  }
+  h2 {
+    font-size:3.6em;
+  }
+  h3{
+    font-size: 2.6em;
+  }
+}
+/*!============================================*/
+/*!============================================*/
+@media (max-width:1050px){
+  h1 {
+    font-size: 4.2em;
+  }
+  h2 {
+    font-size:3.2em;
+  }
+  h3{
+    font-size: 2.2em;
+  }
+}
+/*!============================================*/
+/*!============================================*/
+@media (max-width:850px){
+  h1 {
+    font-size: 3.8em;
+  }
+  h2 {
+    font-size:2.8em;
+  }
+  h3{
+    font-size: 1.8em;
+  }
+}
+/*!============================================*/
+/*!============================================*/
+@media (max-width:650px) {
+h1 {
+  font-size: 3.4em;
+}
+h2 {
+  font-size:2.4em;
+}
+h3{
+  font-size: 1.4em;
+}
+p{
+  font-size: 1em;
+}
+}
+/*!============================================*/
+/*!============================================*/
+@media (max-width:500px) {
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size:2em;
+}
+h3{
+  font-size: 1.4em;
+}
+p{
+  font-size: 1em;
+}
+}
+/*!============================================*/
+/*!============================================*/
+
+/* Neon text effect for main title and subtitle */
+.main-title {
+  color: #39FF14;
+  text-shadow: 
+    0 0 7px #39FF14,
+    0 0 10px #39FF14,
+    0 0 21px #39FF14,
+    0 0 42px #39FF14;
+  animation: titlePulse 2s ease-in-out infinite,
+             titleVibrate 0.5s ease-in-out infinite;
+}
+
+.sub-title {
+  color: #39FF14;
+  text-shadow: 
+    0 0 7px #39FF14,
+    0 0 10px #39FF14;
+  animation: subtitlePulse 2s ease-in-out infinite;
+}
+
+@keyframes titlePulse {
+  0%, 100% {
+    text-shadow: 
+      0 0 7px #39FF14,
+      0 0 10px #39FF14,
+      0 0 21px #39FF14,
+      0 0 42px #39FF14;
+  }
+  50% {
+    text-shadow: 
+      0 0 14px #39FF14,
+      0 0 20px #39FF14,
+      0 0 42px #39FF14,
+      0 0 84px #39FF14;
+  }
+}
+
+@keyframes subtitlePulse {
+  0%, 100% {
+    text-shadow: 
+      0 0 7px #39FF14,
+      0 0 10px #39FF14;
+  }
+  50% {
+    text-shadow: 
+      0 0 14px #39FF14,
+      0 0 20px #39FF14,
+      0 0 42px #39FF14;
+  }
+}
+
+@keyframes titleVibrate {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-1px);
+  }
+  75% {
+    transform: translateX(1px);
+  }
+}
+
+/* Add vibrating neon effect to all button types */
+button,
+.MuiButton-root,
+.MuiIconButton-root,
+.MuiButtonBase-root,
+[role="button"],
+.button,
+.btn,
+a[href]:not(.no-effect),
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  position: relative;
+  box-shadow: 0 0 15px rgba(57, 255, 20, 0.3);
+  animation: neonPulse 1.5s ease-in-out infinite;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+.MuiButton-root:hover,
+.MuiIconButton-root:hover,
+.MuiButtonBase-root:hover,
+[role="button"]:hover,
+.button:hover,
+.btn:hover,
+a[href]:hover:not(.no-effect),
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  box-shadow: 0 0 20px rgba(57, 255, 20, 0.5),
+              0 0 30px rgba(57, 255, 20, 0.3),
+              0 0 40px rgba(57, 255, 20, 0.1);
+  animation: neonVibrate 0.3s ease-in-out infinite;
+}
+
+@keyframes neonPulse {
+  0% {
+    box-shadow: 0 0 15px rgba(57, 255, 20, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.5),
+                0 0 30px rgba(57, 255, 20, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(57, 255, 20, 0.3);
+  }
+}
+
+@keyframes neonVibrate {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-1px);
+  }
+  75% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
